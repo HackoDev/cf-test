@@ -143,6 +143,6 @@ MEDIA_ROOT = root('media')
 AUTH_USER_MODEL = 'cf_users.User'
 
 try:
-    from .local_setting import *
+    from local_setting import *
 except SystemError:
     pass
