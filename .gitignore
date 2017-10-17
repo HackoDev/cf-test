@@ -6,3 +6,4 @@ __pycache__
 venv
 *.egg-info
 *.sqlite3
+local_setting.py

@@ -17,9 +17,3 @@ user:
 migrate:
 	$(PY_ENV) src/manage.py migrate
 
-start:
-	make venv \
-	migrate \
-	fixtures \
-	user \
-	server
