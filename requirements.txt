@@ -1,0 +1,6 @@
+django-jet==1.0.6
+django-extensions==1.9.6
+psycopg2==2.7.3.1
+git+https://github.com/HackoDev/cf-core.git#egg=cf_core
+git+https://github.com/HackoDev/cf-users.git#egg=cf_users
+git+https://github.com/HackoDev/cf-adverts.git#egg=cf_adverts
