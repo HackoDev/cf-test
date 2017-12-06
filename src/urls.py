@@ -4,14 +4,14 @@ from django.conf.urls.static import static
 from django.contrib import admin
 
 from cf_core.router import router
-from cf_core.api import (
+from cf_core.api.views import (
     DictionaryViewSet, ModerationNoteViewSet
 )
 
-from cf_users.api import (
+from cf_users.api.views import (
     UserProfileViewSet, PublishedProfileVewSet
 )
-from cf_adverts.api import (
+from cf_adverts.api.views import (
     AdvertViewSet, EstimateViewSet, EventsViewSet
 )
 

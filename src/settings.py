@@ -144,5 +144,5 @@ AUTH_USER_MODEL = 'cf_users.User'
 
 try:
     from local_setting import *
-except SystemError:
+except ImportError:
     pass

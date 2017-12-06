@@ -1,42 +1,42 @@
-### Пример проекта CrowdFunding платформы
+## Example CrowdFunding project.
 
-1. список объявлений
-2. список организаций (НКО, ООО, ОАО)
-3. модерация объявлений
-4. градация по местоположению и категориям
 
-Проект не является завершенным. На данном этапе не все модули были реализованы,
-проект требует расширения и разработки вспомогательных модулей:
+1. advert list
+2. company list
+3. advert moderation
+4. filtering by locations
 
-- пожертвования (платежи)
-- роли и участники
-- модуль пользовательского интерфейса
-- личный кабинет пользователя
+Not implemented apps:
 
-### Зависимости проекта
+- donations (payments/resources)
+- roles and participants
+- dashboard module
+- user room
+
+### Project requirements
 - Python 3.5
 - Django 1.11.5
 - Postgres
 
 
-### Настройка и старт
-- Создаем файл с настройками:
-
+### Quick start
+- Create local settings file:
 
     touch src/local_setting.py
-- Переопределить требуемые конфиги
+    
+- Override default config if need
 
-#### Создание окружения и установка зависимостей:
+#### Create virtualenv and install packages:
     make venv
 
-#### Создание супер-пользователя:
+#### Create superuser:
     make user
 
-#### Загрузка фикстур:
+#### Loadi fixtures:
     make fixtures
 
-#### Применение миграций:
+#### Migrations:
     make migrate
 
-#### Запуск dev-сервера на `8000` порту:
+#### Rum development server on `8000` port:
     make server
