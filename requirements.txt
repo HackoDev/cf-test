@@ -1,4 +1,4 @@
-Django==1.11.23
+Django==2.2.24
 django-jet==1.0.6
 django-extensions==1.9.6
 psycopg2==2.7.3.1
